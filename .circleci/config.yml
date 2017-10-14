@@ -3,6 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/go
-        steps:
-          - checkout
-          - run: echo "Hello"
+    steps:
+      - checkout
+      - run: echo "Hello"
